@@ -20,9 +20,40 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
 }
 
+.banner{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+.heading{
+    animation-name: slideAcross;
+    animation-duration: 2s;
+}
+
+.main{
+    animation-name: slideAcross;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode:backwards;
+
+}
+
+@keyframes slideAcross{
+    0%{
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
 
 
