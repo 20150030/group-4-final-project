@@ -1,2 +1,28 @@
-*{font-family: 'Raleway', sans-serif;
-color: black;}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+/* Header */
+
+header{
+
+    height: 100vh;
+    background: url('images/pexels-brigitte-tohm-143642.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+
+
+
+/* End of Header */
