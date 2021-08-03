@@ -15,7 +15,8 @@ body {
 header{
 
     height: 100vh;
-    background: url('images/pexels-brigitte-tohm-143642.jpg');
+    background:linear-gradient(rgba(0,0,0,0.63),rgba(0,0,0,0.5)),url('images/pexels-brigitte-tohm-143642.jpg');
+   
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
