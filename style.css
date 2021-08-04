@@ -106,3 +106,65 @@ header{
     color:black;
  }
 /* End of About Coffee Nook */
+
+/*==========Our-Fav Section===============*/
+.our-fav{
+   background:rgb(102, 82, 59);
+   margin-top:30px;
+   color:#d4c1c19a;
+}
+.coffee-card{
+    position:relative;
+    box-shadow: 5px 15px 50px #634832;
+    max-width:420px;
+    transition: all .8s;
+    overflow:hidden;
+    cursor:pointer;
+}
+.card-header .title-text{
+    color:black;
+    background:blanchedalmond;
+}
+.rotate{
+    perspective:100rem;
+    color:black;
+}
+.card-footer{
+    background:#d4c1c19a;
+}
+.back{
+    position:absolute;
+    top: -100%;
+    background : #fff;
+    height:100%;
+    width:100%;
+    opacity:0;
+    user-select:none;
+    pointer-events:none;
+    transform:rotateY(180deg);
+    transition:top .8s opacity .4s;
+    background:blanchedalmond;
+}
+.back-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.rotate:hover .coffee-card{
+    transform: rotateY(180deg);
+}
+.rotate:hover .back{
+    opacity: 1;
+    top:0;
+    user-select:auto;
+    pointer-events:auto;
+}
+.back-content .btn{
+    color:#dbc1ac;
+    font-weight:bold;
+    border:2px solid #534832;
+    font-size: 25px;
+}
+
+/*==========Endf of Our-Fav Section===============*/
