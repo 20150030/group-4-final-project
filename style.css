@@ -102,9 +102,53 @@ header{
 /* End of Header */
 
 /* About Coffee Nook */
-#about { 
-    color:black;
- }
+
+
+.about {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+  }
+  
+.about {
+    background: #fffaf3;
+  }
+  
+  .about .content {
+    padding: 0 80px;
+  }
+
+  
+  
+  .about .content h3 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #5f5950;
+  }
+ .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li + li {
+    margin-top: 27px;
+  }
+  
+  .about .content ul li {
+    position: relative;
+    padding-left: 50px;
+  }
+  
+  .about .video-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+  }
+  
+  
+  
+  
 /* End of About Coffee Nook */
 
 /*==========Our-Fav Section===============*/
