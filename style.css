@@ -121,10 +121,15 @@ header{
     overflow:hidden;
     cursor:pointer;
 }
+.coffee-card img{
+    width:300px;
+    height: 300px;
+}
 .card-header .title-text{
     color:black;
     background:blanchedalmond;
 }
+
 .rotate{
     perspective:100rem;
     color:black;
